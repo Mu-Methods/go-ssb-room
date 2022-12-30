@@ -75,7 +75,7 @@ func TestWebsocketDialing(t *testing.T) {
 	r.Equal(http.StatusSwitchingProtocols, resp.StatusCode)
 
 	// default app key for the secret-handshake connection
-	ak, err := base64.StdEncoding.DecodeString("1KHLiKZvAvjbY1ziZEHMXawbCEIM6qwjCDm3VYRan/s=")
+	ak, err := base64.StdEncoding.DecodeString("FrZfG8UJMATSWui70aMbJ+T3plrGyoFOCRnBbNosfBk=")
 	r.NoError(err)
 
 	// create a shs client to authenticate and encrypt the connection

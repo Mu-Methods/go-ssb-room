@@ -118,7 +118,7 @@ func New(
 	}
 
 	if s.appKey == nil {
-		ak, err := base64.StdEncoding.DecodeString("1KHLiKZvAvjbY1ziZEHMXawbCEIM6qwjCDm3VYRan/s=")
+		ak, err := base64.StdEncoding.DecodeString("FrZfG8UJMATSWui70aMbJ+T3plrGyoFOCRnBbNosfBk=")
 		if err != nil {
 			return nil, fmt.Errorf("failed to decode default appkey: %w", err)
 		}

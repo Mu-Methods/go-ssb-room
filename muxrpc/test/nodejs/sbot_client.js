@@ -7,7 +7,7 @@ const { loadOrCreateSync } = require('ssb-keys')
 const tapSpec = require("tap-spec")
 const tape = require('tape')
 const theStack = require('secret-stack')
-const ssbCaps = require('ssb-caps')
+const ssbCaps = require('@mu-methods/caps')
 
 const testSHSappKey = bufFromEnv('TEST_APPKEY')
 

@@ -37,7 +37,7 @@ Usage of ./server:
   -repo string
     	where to put the log and indexes (default "~/.ssb-go-room")
   -shscap string
-    	secret-handshake app-key or capability; should likely not be changed as this makes you part of a different network (default "1KHLiKZvAvjbY1ziZEHMXawbCEIM6qwjCDm3VYRan/s=")
+    	secret-handshake app-key or capability; should likely not be changed as this makes you part of a different network (default "FrZfG8UJMATSWui70aMbJ+T3plrGyoFOCRnBbNosfBk=")
   -version
     	print version number and build date
 
